@@ -1,4 +1,4 @@
-Template Data Repo
+40k 2nd Edition
 ==================
 
 [![Latest release](https://img.shields.io/github/release/BSData/40k2nded.svg?style=flat-square)](https://github.com/BSData/40k2nded/releases/latest)
