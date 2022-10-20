@@ -320,7 +320,7 @@ The model is protected by a Daemonic Aura (4+ unmodified save).</description>
           <modifiers>
             <modifier type="set" field="6299-cb13-a123-d9ec" value="Model gains +1 Toughness (included in profile already)">
               <conditions>
-                <condition field="selections" scope="parent" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3623-3100-9f0c-5349" type="instanceOf"/>
+                <condition field="selections" scope="ancestor" value="0.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" childId="3623-3100-9f0c-5349" type="instanceOf"/>
               </conditions>
             </modifier>
           </modifiers>
@@ -3278,22 +3278,6 @@ The launcher cannot be hit separetely but any hit which penetrates the body will
             <cost name="pts" typeId="points" value="35.0"/>
           </costs>
         </selectionEntry>
-        <selectionEntry id="1242-c0a1-6703-327f" name="Mark of Nurgle" hidden="false" collective="false" import="true" type="upgrade">
-          <constraints>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf21-fad1-882a-fdf5" type="max"/>
-            <constraint field="selections" scope="parent" value="1.0" percentValue="false" shared="true" includeChildSelections="false" includeChildForces="false" id="bf2d-03fb-5e42-247b" type="min"/>
-          </constraints>
-          <profiles>
-            <profile id="b66f-2755-186b-979a" name="Nurgle" publicationId="02e1-3f69-7ae7-f5c5" page="27" hidden="false" typeId="4fa6-d4f7-781c-53f9" typeName="Mark of Chaos">
-              <characteristics>
-                <characteristic name="Special Rule" typeId="6299-cb13-a123-d9ec">Model gains +1 Toughness (included in profile already)</characteristic>
-              </characteristics>
-            </profile>
-          </profiles>
-          <costs>
-            <cost name="pts" typeId="points" value="0.0"/>
-          </costs>
-        </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
         <selectionEntryGroup id="6f59-7470-8e50-baa1" name="Weapons" hidden="false" collective="false" import="true">
@@ -5666,6 +5650,9 @@ If a Space Marine squad  is shaken and fails a  further Break test then it is br
         </entryLink>
         <entryLink id="ac70-2fb6-b05b-e531" name="Cult Assault Weapons" hidden="false" collective="false" import="true" targetId="ecd3-a651-a047-e6f7" type="selectionEntryGroup"/>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="886c-7118-1ab8-c308" name="Cult Icon Bearer" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -5951,6 +5938,9 @@ If a Space Marine squad  is shaken and fails a  further Break test then it is br
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="9fcd-b7eb-aa5d-3a08" name="Beastman Pack" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
@@ -6040,6 +6030,9 @@ If a Space Marine squad  is shaken and fails a  further Break test then it is br
         </entryLink>
         <entryLink id="d27d-5299-12fe-4ff4" name="Cult Assault Weapons" hidden="false" collective="false" import="true" targetId="ecd3-a651-a047-e6f7" type="selectionEntryGroup"/>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="dcb2-aa9a-0747-6579" name="Daemon Prince" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
@@ -6382,6 +6375,9 @@ Enemy models may not attack Foulspawn in close combat.</description>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="8f7b-fa87-0318-3aa9" name="Daemonic Icon Bearer" hidden="false" collective="false" import="true" type="upgrade">
       <constraints>
@@ -6524,6 +6520,9 @@ Enemy models may not attack Foulspawn in close combat.</description>
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="ebc6-adfd-aa4d-a861" name="Chaos Warrior Champion" hidden="false" collective="false" import="true" type="upgrade">
       <categoryLinks>
@@ -6672,6 +6671,9 @@ Enemy models may not attack Foulspawn in close combat.</description>
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="e448-69ca-4634-3986" name="Chaos Magus" hidden="false" collective="false" import="true" type="upgrade">
       <categoryLinks>
@@ -6827,6 +6829,9 @@ Enemy models may not attack Foulspawn in close combat.</description>
           </costs>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="800d-fc79-99ab-2b9a" name="Khorne Daemons" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
@@ -6923,6 +6928,9 @@ Enemy models may not attack Foulspawn in close combat.</description>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="96ae-e03d-2962-10ba" name="Slaanesh Daemons" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
@@ -7026,6 +7034,9 @@ Enemy models may not attack Foulspawn in close combat.</description>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="5dad-f29a-6763-a30d" name="Nurgle Daemons" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
@@ -7119,6 +7130,9 @@ Enemy models may not attack Foulspawn in close combat.</description>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="08e7-caa5-0e78-bb66" name="Tzeentch Daemons" hidden="false" collective="false" import="true" type="upgrade">
       <modifiers>
@@ -7194,6 +7208,9 @@ Enemy models may not attack Foulspawn in close combat.</description>
           </selectionEntries>
         </selectionEntryGroup>
       </selectionEntryGroups>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="200c-8180-1199-df0f" name="Chaos Warrior Warband" hidden="false" collective="false" import="true" type="upgrade">
       <categoryLinks>
@@ -7244,6 +7261,9 @@ Enemy models may not attack Foulspawn in close combat.</description>
               </constraints>
             </entryLink>
           </entryLinks>
+          <costs>
+            <cost name="pts" typeId="points" value="0.0"/>
+          </costs>
         </selectionEntry>
       </selectionEntries>
       <selectionEntryGroups>
@@ -7344,6 +7364,9 @@ Enemy models may not attack Foulspawn in close combat.</description>
         </entryLink>
         <entryLink id="5f4e-70fa-351d-9807" name="Cult Assault Weapons" hidden="false" collective="false" import="true" targetId="ecd3-a651-a047-e6f7" type="selectionEntryGroup"/>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="0d01-978b-a882-2380" name="Chaos Hound Pack" hidden="false" collective="false" import="true" type="upgrade">
       <categoryLinks>
@@ -7376,6 +7399,9 @@ Enemy models may not attack Foulspawn in close combat.</description>
           </costs>
         </selectionEntry>
       </selectionEntries>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="3d9f-f0a6-eea2-80cc" name="Beastmen" hidden="false" collective="false" import="true" type="upgrade">
       <categoryLinks>
@@ -7438,6 +7464,9 @@ Enemy models may not attack Foulspawn in close combat.</description>
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="b01a-7ed8-9bd0-3370" name="Minotaurs" hidden="false" collective="false" import="true" type="upgrade">
       <rules>
@@ -7484,6 +7513,9 @@ Enemy models may not attack Foulspawn in close combat.</description>
         </entryLink>
         <entryLink id="91d1-1b18-f0f4-16de" name="Cult Assault Weapons" hidden="false" collective="false" import="true" targetId="ecd3-a651-a047-e6f7" type="selectionEntryGroup"/>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="922d-dd2a-b35a-e9e3" name="Trolls" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -7535,6 +7567,9 @@ Enemy models may not attack Foulspawn in close combat.</description>
           </constraints>
         </entryLink>
       </entryLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
