@@ -143,6 +143,7 @@
     <categoryEntry id="b373-19ca-9b61-1a4c" name="Chaos" hidden="false"/>
     <categoryEntry id="0f7a-2cd5-df51-dccd" name="Daemons" hidden="false"/>
     <categoryEntry id="6741-c4c6-274e-36cf" name="Support - Ally" hidden="false"/>
+    <categoryEntry id="722d-8a5c-d442-498a" name="Necrons" hidden="false"/>
   </categoryEntries>
   <forceEntries>
     <forceEntry id="5eaa-5b96-5986-4194" name="Don&apos;t pick this - Click to change" hidden="true">
@@ -2482,6 +2483,9 @@ in combination with other kinds of ammo. Discarded after use.</characteristic>
 </description>
         </rule>
       </rules>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="5c5a-5864-5f50-d4e0" name="Warp Jump" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -2491,6 +2495,9 @@ in combination with other kinds of ammo. Discarded after use.</characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="0108-499f-c0b5-f17c" name="Virus Grenade" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -2509,6 +2516,9 @@ in combination with other kinds of ammo. Discarded after use.</characteristic>
           <description>Models affected by the template must roll to see whether the gas affects them.Space Marines, Eldar Aspect Warriors, Dreadnoughts, Terminators, and enclosed vehicles are immune to its effects. Other models must roll a 1 or 2 on D6 to avoid the affects. Affected models are effectively slain — but are left on the battlefield. Lie affected models on their sides, and roll a D6 — this is the contact range for the virus in inches. Any normally vulnerable model within the contact range of a victim of the Virus is slain on a D6 roll of 4+. Each time a model is slain by the effects of the virus, lay it on its side and roll for the contact range again. It is possible that a single model may have to test to see if it is slain several times because it lies within the contact range of more than one victim. Once there are no more victims within the contact range of all slain models, the virus has no further effects.</description>
         </rule>
       </rules>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="c1c1-24d3-9d15-a132" name="Toxin Grenade" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -2527,6 +2537,9 @@ in combination with other kinds of ammo. Discarded after use.</characteristic>
           <description>Models affected by the template must roll to see if the toxin affects them — Space Marines, Eldar Aspect Warriors, Dreadnoughts, Terminators, and enclosed vehicles are immune to the effects. Imperial Guard, Squats, Eldar Guardians, Space Marine Scouts, and Orks in &apos;Eavy armour must roll a 1 or 2 on D6 to avoid the toxin‘s effects. Other models, Orks, and Gretchin must roll a 1 to avoid being affected. Affected models must roll a D6; on a 2+, they are slain regardless of their Wounds.</description>
         </rule>
       </rules>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="2ed2-cee9-c66b-61b9" name="Stasis Grenade" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -2548,6 +2561,9 @@ in combination with other kinds of ammo. Discarded after use.</characteristic>
 3-6 The effect remains</description>
         </rule>
       </rules>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="ff93-6c11-25e9-72dc" name="Power Field" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -2558,6 +2574,9 @@ in combination with other kinds of ammo. Discarded after use.</characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="a305-80f8-973b-90d4" name="Master-Crafted Laspistol" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -2579,6 +2598,9 @@ in combination with other kinds of ammo. Discarded after use.</characteristic>
         <infoLink id="904f-5cff-eab8-0e84" name="Close Combat" hidden="false" targetId="c494-c170-605c-8959" type="rule"/>
         <infoLink id="e3df-10d3-aa4a-36d7" name="Sustained Fire" hidden="false" targetId="0b67-c911-308c-4960" type="rule"/>
       </infoLinks>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="9395-c085-9b29-2302" name="Immune" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -2588,6 +2610,9 @@ in combination with other kinds of ammo. Discarded after use.</characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="0ad2-92fa-5b56-644e" name="Haywire Grenade" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -2606,6 +2631,9 @@ in combination with other kinds of ammo. Discarded after use.</characteristic>
           <description>Only affects vehicles, dreadnoughts, robots, Wraithguard, and Terminators. If any of these models is hit with a Haywire Grenade, their armour is penetrated automatically. Roll to hit locations covered by the template as normal, and then roll on the appropriate damage table with a –1 modifier. Vehicle crewmen or Terminators hit by this grenade suffer a S3 hit causing 1 wound with no armour save possible. </description>
         </rule>
       </rules>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="7299-aa89-aeeb-37a1" name="Graviton Gun" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -2628,6 +2656,9 @@ in combination with other kinds of ammo. Discarded after use.</characteristic>
           <description>Living targets are immobilized for the rest of the game and may not move or shoot, though a psyker thus affected may use his powers. Vehicles roll for hit location as normal and ignore armour penetration. Add +1 to the die score when you roll for damage on the appropriate table</description>
         </rule>
       </rules>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="4490-0f7f-8f88-8729" name="Combat Drugs" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -2637,6 +2668,9 @@ in combination with other kinds of ammo. Discarded after use.</characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
     <selectionEntry id="d895-75cf-96df-ca33" name="Cameleoline" hidden="false" collective="false" import="true" type="upgrade">
       <profiles>
@@ -2646,6 +2680,9 @@ in combination with other kinds of ammo. Discarded after use.</characteristic>
           </characteristics>
         </profile>
       </profiles>
+      <costs>
+        <cost name="pts" typeId="points" value="0.0"/>
+      </costs>
     </selectionEntry>
   </sharedSelectionEntries>
   <sharedSelectionEntryGroups>
